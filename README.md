@@ -45,4 +45,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-<<<Desenvolvido por by Briam Silva dentro do evendo Rocketseat>>>>
+Desenvolvido por by Briam Silva dentro do evendo Rocketseat
