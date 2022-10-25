@@ -1,0 +1,68 @@
+/* form */
+form {
+  max-width: 36rem;
+  display: grid;
+  gap: 1.6rem;
+}
+
+form .input-wrapper {
+  display: grid;
+  gap: 0.6rem;
+}
+
+form label {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.01px;
+  text-transform: uppercase;
+  color: #fcfcfc;
+}
+
+form input {
+  background: #ffffff;
+  border: 1px solid whitesmoke;
+  border-radius: 6px;
+  height: 41px;
+  padding-inline: 1.2rem;
+
+  width: 100%;
+
+  color: rgb(9, 9, 9);
+  text-transform: uppercase;
+}
+
+form .flex {
+  gap: 1.4rem;
+}
+
+form .flex .input-wrapper {
+  flex: 1;
+}
+
+form button {
+  margin-top: 1.6rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem 0;
+
+  background: #e8e8e8;
+  border-radius: 0.6rem;
+
+  cursor: pointer;
+
+  border: none;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgb(10, 9, 9);
+
+  transition: filter 0.3s;
+}
+
+form button:hover {
+  filter: brightness(1.1);
+}
